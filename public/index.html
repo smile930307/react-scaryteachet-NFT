@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="img/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#000000"/>
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png"/>
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Scary Teacher NFTs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Frijole&family=Outfit:wght@300;500&display=swap"
+    />
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/main.min.css?2"/>
+    <link rel="stylesheet" href="css/main.min.css?3">
+    <link rel="stylesheet" href="css/main.min.css?4">
+    <link rel="stylesheet" href="css/main.min.css?5">
+
+    <link
+            rel="apple-touch-icon"
+            href="img/ico/favicons/apple-touch-icon.png"
+            sizes="180x180"
+    />
+    <link rel="icon" href="img/ico/favicons/favicon.ico"/>
+    <script>
+        !(function (w, d, t) {
+            w.TiktokAnalyticsObject = t;
+            var ttq = (w[t] = w[t] || []);
+            (ttq.methods = [
+                "page",
+                "track",
+                "identify",
+                "instances",
+                "debug",
+                "on",
+                "off",
+                "once",
+                "ready",
+                "alias",
+                "group",
+                "enableCookie",
+                "disableCookie",
+            ]),
+                (ttq.setAndDefer = function (t, e) {
+                    t[e] = function () {
+                        t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+                    };
+                });
+            for (var i = 0; i < ttq.methods.length; i++)
+                ttq.setAndDefer(ttq, ttq.methods[i]);
+            (ttq.instance = function (t) {
+                for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++)
+                    ttq.setAndDefer(e, ttq.methods[n]);
+                return e;
+            }),
+                (ttq.load = function (e, n) {
+                    var i = "https://analytics.tiktok.com/i18n/pixel/events.js";
+                    (ttq._i = ttq._i || {}),
+                        (ttq._i[e] = []),
+                        (ttq._i[e]._u = i),
+                        (ttq._t = ttq._t || {}),
+                        (ttq._t[e] = +new Date()),
+                        (ttq._o = ttq._o || {}),
+                        (ttq._o[e] = n || {});
+                    n = document.createElement("script");
+                    (n.type = "text/javascript"),
+                        (n.async = !0),
+                        (n.src = i + "?sdkid=" + e + "&lib=" + t);
+                    e = document.getElementsByTagName("script")[0];
+                    e.parentNode.insertBefore(n, e);
+                });
+
+            ttq.load("C8CBLKG00UN0SCOQSM10");
+            ttq.page();
+        })(window, document, "ttq");
+    </script>
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root"></div>
+<!--
+  This HTML file is a template.
+  If you open it directly in the browser, you will see an empty page.
+
+  You can add webfonts, meta tags, or analytics to this file.
+  The build step will place the bundled scripts into the <body> tag.
+
+  To begin the development, run `npm start` or `yarn start`.
+  To create a production bundle, use `npm run build` or `yarn build`.
+-->
+<script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script defer src="js/main.js"></script>
+</body>
+</html>
