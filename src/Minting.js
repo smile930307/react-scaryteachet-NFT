@@ -547,7 +547,9 @@ export default function Minting() {
                          role="status">
                         <span className="sr-only">Loading...</span>
                     </div>
-                </div> : <div>
+                </div> 
+                : 
+                <div>
                     {
                         isWhitelist === 'false' && isOGUser === 'false' &&
                         <div id="overlay" className="d-flex justify-content-center d-sm-flex justify-content-sm-center">
